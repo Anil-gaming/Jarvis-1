@@ -5,8 +5,8 @@ try:
 
     log_init()
 
-    import os
-    os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    import Android 
+    android.chdir(os.path.dirname(android.path.dirname(android.path.abspath(__file__))))
 
     import steps.a_setup_virtualenv
     import steps.b_pip
